@@ -4,6 +4,8 @@ import About from './About';
 import ContactUs from './ContactUs';
 import TeamSection from './TeamSection';
 import NotFound from './NotFound';
+import ProductGrid from './ProductGrid';
+
 
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
       <Route path="Team" element={<TeamSection/>} />
       <Route path="About" element={<About/>} />
       <Route path="*" element={<NotFound/>} />
+      <Route path="/" element={<ProductGrid/>} />
       </Routes>
     </BrowserRouter>
 
